@@ -14,7 +14,7 @@
     text-align: center;
     margin: 0 auto;
     width: 95%;
-    background-color: darkblue;
+    background-color: rgb(0,44,99);
     color: white;
 }
 .activefilters_container__filter_label_container h3{

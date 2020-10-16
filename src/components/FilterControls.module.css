@@ -18,12 +18,12 @@
 .filter_container__selectfilter select{
     width: 95%;
 }
-.filter_container__selectfilter button{
+.filter_container__selectfilter  button{
     width: 50%;
     padding-top: .5em;
     padding-bottom: .5em;
     font-size: large;
-    background-color: darkblue;
+    background-color: rgb(0,44,99);
     color: white;
     font-weight: bold;
     position: absolute;
