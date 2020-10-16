@@ -1,0 +1,37 @@
+.filter_container{
+  display: flex;
+    margin: 0 auto;
+    width: 98%;
+    margin-bottom: 0em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+   
+    box-shadow: 2px 3px 3px 0px #35449f33;
+    margin-top: 1em;
+    background-color: white;
+}
+
+.filter_container__selectfilter{
+    text-align: center;
+    flex-basis: 25%;
+}
+.filter_container__selectfilter select{
+    width: 95%;
+}
+.filter_container__selectfilter button{
+    width: 50%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+.filter_container__btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

@@ -1,0 +1,48 @@
+.automationtbl_container{
+    margin: 0 auto;
+    width: 98%;
+    margin-bottom: 0em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+   
+    box-shadow: 2px 3px 3px 0px #35449f33;
+    margin-top: 1em;
+    background-color: white;
+}
+
+
+  .automationtbl_container table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+    margin: 0 auto;
+  }
+  
+  .automationtbl_container td, th {
+    border: 1px solid #eee;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .automationtbl_container tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .automationtbl_container h3{
+    margin-left: 1em;
+    padding-top: 1em;
+  }
+  .automationtbl_container thead{
+    background-color: darkblue;
+    color: white;
+  }
+  .automationtbl_container__tbl_container{
+    overflow-y: scroll;
+    height: 20em;
+    position: relative;
+  }
+  .automationtbl_container__tbl_container table thead th{
+    position: sticky;
+    top: 0;
+    background-color: darkblue;
+    color: white;
+  }

@@ -1,0 +1,361 @@
+{
+	"multilist": [
+		{
+			"factor": {
+				"value": "Cost of Tool",
+				"code": "cot"
+			},
+			"categories": [
+				{
+					"value": "Open Source",
+					"code": "os",
+					"categoryvalues": [
+						{
+							"value": "Yes",
+							"code": "yes"
+						},
+						{
+							"value": "No",
+							"code": "no"
+						},
+						{
+							"value": "NA",
+							"code": "na"
+						}
+					]
+				},
+				{
+					"value": "monthly billing",
+					"code": "mbill",
+					"categoryvalues": [
+						{
+							"value": "greater than 100$",
+							"code": "g100"
+						},
+						{
+							"value": "greater than 1000$",
+							"code": "g1000"
+						},
+						{
+							"value": "greater than 10000$",
+							"code": "g10000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"factor": {
+				"value": "Application Under Test",
+				"code": "aot"
+			},
+			"categories": [
+				{
+					"value": "Type of Application",
+					"code": "typeofapp",
+					"categoryvalues": [
+						{
+							"value": "Web",
+							"code": "web"
+						},
+						{
+							"value": "Mobile",
+							"code": "mobile"
+						},
+						{
+							"value": "Windows",
+							"code": "windows"
+						}
+					]
+				}
+			]
+		},
+		{
+			"factor": {
+				"value": "Scripting Method",
+				"code": "script"
+			},
+			"categories": [
+				{
+					"value": "Language Supported",
+					"code": "langsupport",
+					"categoryvalues": [
+						{
+							"value": "Java",
+							"code": "java"
+						},
+						{
+							"value": "C#",
+							"code": "csharp"
+						},
+						{
+							"value": "Python",
+							"code": "python"
+						}
+					]
+				}
+			]
+		}
+	],
+	"automationtoolslist": [
+		{
+			"factor": "cot",
+			"category": "os",
+			"categoryvalue": "yes",
+			"tools": [
+				{
+					"product": "Selenium",
+					"pricing": "Free",
+					"rating": 4,
+					"SuggestedTool": "Most Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Katalon Studio",
+					"pricing": "Free",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "UFT",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Appium",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "21 – Connecting Testing",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "TestProject",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Test Studio",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Ranorex",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Subject7",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				}
+			]
+		},
+		{
+			"factor": "cot",
+			"category": "os",
+			"categoryvalue": "no",
+			"tools": [
+				{
+					"product": "UFT",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				}
+			]
+		},
+		{
+			"factor": "aot",
+			"category": "typeofapp",
+			"categoryvalue": "web",
+			"tools": [
+				{
+					"product": "Selenium",
+					"pricing": "Free",
+					"rating": 4,
+					"SuggestedTool": "Most Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Katalon Studio",
+					"pricing": "Free",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "UFT",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Appium",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "21 – Connecting Testing",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "TestProject",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Test Studio",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Ranorex",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Subject7",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Testimony",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Qualibrate",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Testsigma",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "QMetry Automation Studio",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "LambdaTest",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "TestComplete",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "SoapUI",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Telerik Test Studio",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "IBM Rational Functional Tester",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "WorkSoft",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Cucumber",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				}
+			]
+		},
+		{
+			"factor": "aot",
+			"category": "typeofapp",
+			"categoryvalue": "mobile",
+			"tools": [
+				{
+					"product": "Selenium",
+					"pricing": "Free",
+					"rating": 4,
+					"SuggestedTool": "Most Suitable",
+					"References": "#"
+				},
+				{
+					"product": "Katalon Studio",
+					"pricing": "Free",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				},
+				{
+					"product": "UFT",
+					"pricing": "Paid",
+					"rating": 4,
+					"SuggestedTool": "Suitable",
+					"References": "#"
+				}
+			]
+		}
+	]
+}
